@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>娛樂城推薦 | 2026年台灣線上賭場評測 - 最權威娛樂城排行</title>
+    <meta name="description" content="精選2026年娛樂城推薦，提供最專業的台灣線上賭場評測，包含WG娛樂城、泊樂娛樂城、威樂娛樂城等熱門平台評測與推薦。">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-tc@5.0.0/index.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Noto Sans TC', sans-serif; background: #0a0e1a; color: #e0e0e0; overflow-x: hidden; }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, #1a1f35 0%, #0d1025 50%, #1a0a2e 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-bg::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,215,0,0.03) 0%, transparent 70%);
+            animation: rotateGlow 20s linear infinite;
+        }
+        @keyframes rotateGlow {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .gold-gradient {
+            background: linear-gradient(135deg, #ffd700, #ffaa00, #ffd700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .card-glow {
+            background: linear-gradient(145deg, rgba(30, 35, 60, 0.9), rgba(15, 18, 35, 0.95));
+            border: 1px solid rgba(255, 215, 0, 0.15);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-glow:hover {
+            border-color: rgba(255, 215, 0, 0.5);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 60px rgba(255, 215, 0, 0.1);
+        }
+        
+        .btn-gold {
+            background: linear-gradient(135deg, #ffd700, #ff8c00);
+            color: #1a0e00;
+            font-weight: 700;
+            padding: 12px 32px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
+        }
+        .btn-gold:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 30px rgba(255, 215, 0, 0.5);
+        }
+        
+        .rating-bar {
+            height: 8px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .rating-fill {
+            height: 100%;
+            border-radius: 4px;
+            background: linear-gradient(90deg, #ffd700, #ff8c00);
+            transition: width 1.5s ease-out;
+        }
+        
+        .badge-top {
+            background: linear-gradient(135deg, #ffd700, #ff8c00);
+            color: #1a0e00;
+            font-weight: 800;
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+        }
+        
+        .nav-link {
+            color: #b0b0b0;
+            transition: color 0.3s;
+            text-decoration: none;
+            position: relative;
+        }
+        .nav-link:hover { color: #ffd700; }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #ffd700;
+            transition: width 0.3s;
+        }
+        .nav-link:hover::after { width: 100%; }
+        
+        .star-filled { color: #ffd700; }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #ffd700, transparent);
+            border-radius: 2px;
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            background: linear-gradient(135deg, rgba(255,215,0,0.15), rgba(255,140,0,0.1));
+            border: 1px solid rgba(255,215,0,0.2);
+        }
+        
+        .casino-rank {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.1rem;
+        }
+        .rank-1 { background: linear-gradient(135deg, #ffd700, #ff8c00); color: #1a0e00; }
+        .rank-2 { background: linear-gradient(135deg, #c0c0c0, #a0a0a0); color: #1a0e00; }
+        .rank-3 { background: linear-gradient(135deg, #cd7f32, #a0522d); color: #fff; }
+        .rank-default { background: rgba(255,255,255,0.1); color: #888; }
+        
+        .table-row {
+            background: rgba(25, 30, 55, 0.6);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            transition: background 0.3s;
+        }
+        .table-row:hover { background: rgba(255, 215, 0, 0.05); }
+        
+        .faq-item {
+            background: rgba(25, 30, 55, 0.6);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        .faq-item:hover { border-color: rgba(255,215,0,0.2); }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+        }
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+            padding: 16px 24px;
+        }
+        .faq-toggle {
+            transition: transform 0.3s;
+        }
+        .faq-item.active .faq-toggle { transform: rotate(180deg); }
+        
+        .scroll-indicator {
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(255, 215, 0, 0.3);
+            border-radius: 50%;
+            animation: float linear infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-10vh) rotate(720deg); opacity: 0; }
+        }
+        
+        .comparison-highlight {
+            border: 2px solid rgba(255,215,0,0.3);
+            background: rgba(255,215,0,0.05);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        
+        .tag {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin: 2px;
+        }
+        .tag-hot { background: rgba(255,50,50,0.2); color: #ff5050; border: 1px solid rgba(255,50,50,0.3); }
+        .tag-new { background: rgba(50,200,100,0.2); color: #50ff80; border: 1px solid rgba(50,200,100,0.3); }
+        .tag-popular { background: rgba(255,215,0,0.2); color: #ffd700; border: 1px solid rgba(255,215,0,0.3); }
+        .tag-safe { background: rgba(50,150,255,0.2); color: #50a0ff; border: 1px solid rgba(50,150,255,0.3); }
+        
+        a { color: #ffd700; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        
+        @media (max-width: 768px) {
+            .hero-title { font-size: 2rem !important; }
+            .grid-cols-4 { grid-template-columns: 1fr 1fr !important; }
+        }
+        
+        .mobile-menu { display: none; }
+        .mobile-menu.active { display: block; }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="fixed top-0 w-full z-50" style="background: rgba(10,14,26,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,215,0,0.1);">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <a href="https://ck5788.wg1888.com/" rel="dofollow" class="text-xl font-bold gold-gradient">🎰 WG娛樂城</a>
+        <div class="hidden md:flex space-x-8 items-center">
+            <a href="#reviews" class="nav-link">賭場評測</a>
+            <a href="#ranking" class="nav-link">排行榜</a>
+            <a href="#features" class="nav-link">評測標準</a>
+            <a href="#comparison" class="nav-link">對比分析</a>
+            <a href="#faq" class="nav-link">常見問題</a>
+            <a href="https://ck5788.wg1888.com/" rel="dofollow" class="btn-gold text-sm">立即體驗</a>
+        </div>
+        <button class="md:hidden text-2xl" onclick="toggleMenu()" aria-label="選單">☰</button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu md:hidden px-4 pb-4 space-y-3">
+        <a href="#reviews" class="nav-link block py-2">賭場評測</a>
+        <a href="#ranking" class="nav-link block py-2">排行榜</a>
+        <a href="#features" class="nav-link block py-2">評測標準</a>
+        <a href="#comparison" class="nav-link block py-2">對比分析</a>
+        <a href="#faq" class="nav-link block py-2">常見問題</a>
+        <a href="https://ck5788.wg1888.com/" rel="dofollow" class="btn-gold text-sm block text-center">立即體驗</a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-bg min-h-screen flex items-center pt-20">
+    <div class="particles" id="particles"></div>
+    <div class="container mx-auto px-4 text-center relative z-10">
+        <div class="inline-block mb-4 px-6 py-2 rounded-full" style="background: rgba(255,215,0,0.1); border: 1px solid rgba(255,215,0,0.3);">
+            <span class="text-yellow-400 text-sm font-semibold">🔥 2026年最新評測更新</span>
+        </div>
+        <h1 class="hero-title text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+            <span class="gold-gradient"><a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a></span><br>
+            <span class="text-white">最權威台灣線上賭場評測</span>
+        </h1>
+        <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed">
+            我們專業團隊深入評測超過50家線上娛樂城，從安全性、遊戲豐富度、出金速度等十大維度進行嚴格把關，為您精選最信賴的<a href="https://dupig03.com/casino/" rel="dofollow" class="text-yellow-400 font-semibold">娛樂城推薦</a>名單。
+        </p>
+        <div class="flex flex-col md:flex-row justify-center gap-4 mb-16">
+            <a href="https://dupig03.com/casino/" rel="dofollow" class="btn-gold text-lg">🏆 查看2026娛樂城推薦</a>
+            <a href="#reviews" class="px-8 py-3 rounded-lg border border-yellow-600 text-yellow-400 font-semibold hover:bg-yellow-600/10 transition">📖 閱讀評測</a>
+        </div>
+        
+        <!-- Stats -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            <div class="text-center">
+                <div class="text-3xl font-bold gold-gradient" id="stat1">0</div>
+                <div class="text-gray-500 text-sm mt-1">評測賭場</div>
+            </div>
+            <div class="text-center">
+                <div class="text-3xl font-bold gold-gradient" id="stat2">0</div>
+                <div class="text-gray-500 text-sm mt-1">遊戲種類</div>
+            </div>
+            <div class="text-center">
+                <div class="text-3xl font-bold gold-gradient" id="stat3">0</div>
+                <div class="text-gray-500 text-sm mt-1">活躍玩家</div>
+            </div>
+            <div class="text-center">
+                <div class="text-3xl font-bold gold-gradient" id="stat4">0</div>
+                <div class="text-gray-500 text-sm mt-1">用戶評分</div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator mt-16 text-yellow-400 text-2xl">↓</div>
+    </div>
+</section>
+
+<!-- Top 3 Featured Casinos -->
+<section id="reviews" class="py-20">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title gold-gradient">精選娛樂城推薦</h2>
+            <p class="text-gray-400 mt-6 max-w-2xl mx-auto">以下為我們團隊經過嚴格評測後，2026年最值得信賴的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>前三名</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- Casino 1: WG -->
+            <div class="card-glow rounded-2xl p-6 relative">
+                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                    <span class="badge-top">🥇 第一名</span>
+                </div>
+                <div class="text-center mt-4">
+                    <div class="w-20 h-20 mx-auto rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center text-3xl mb-4">⚡</div>
+                    <h3 class="text-2xl font-bold text-white mb-1">WG娛樂城</h3>
+                    <div class="flex justify-center space-x-1 mb-3">
+                        <span class="star-filled">★★★★★</span>
+                    </div>
+                    <div class="text-yellow-400 font-bold text-lg mb-4">9.8 / 10</div>
+                </div>
+                <div class="space-y-3 mb-6">
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">安全性</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 99%"></div></div>
+                            <span class="text-yellow-400">99</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">遊戲豐富度</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 97%"></div></div>
+                            <span class="text-yellow-400">97</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">出金速度</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 99%"></div></div>
+                            <span class="text-yellow-400">99</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">優惠活動</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 98%"></div></div>
+                            <span class="text-yellow-400">98</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-4">
+                    <span class="tag tag-hot">🔥 熱門</span>
+                    <span class="tag tag-safe">🔒 安全</span>
+                    <span class="tag tag-popular">⭐ 首選</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-4">台灣最具人氣的娛樂城，出金極速，支援各類遊戲。首儲優惠豐富，玩家口碑極佳。</p>
+                <a href="https://ck5788.wg1888.com/" rel="dofollow" class="btn-gold w-full text-center">前往 WG娛樂城</a>
+            </div>
+            
+            <!-- Casino 2: 泊樂 -->
+            <div class="card-glow rounded-2xl p-6 relative">
+                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                    <span class="badge-top">🥈 第二名</span>
+                </div>
+                <div class="text-center mt-4">
+                    <div class="w-20 h-20 mx-auto rounded-2xl bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-3xl mb-4">🃏</div>
+                    <h3 class="text-2xl font-bold text-white mb-1">泊樂娛樂城</h3>
+                    <div class="flex justify-center space-x-1 mb-3">
+                        <span class="star-filled">★★★★★</span>
+                    </div>
+                    <div class="text-yellow-400 font-bold text-lg mb-4">9.6 / 10</div>
+                </div>
+                <div class="space-y-3 mb-6">
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">安全性</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 97%"></div></div>
+                            <span class="text-yellow-400">97</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">遊戲豐富度</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 95%"></div></div>
+                            <span class="text-yellow-400">95</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">出金速度</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 96%"></div></div>
+                            <span class="text-yellow-400">96</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">優惠活動</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 97%"></div></div>
+                            <span class="text-yellow-400">97</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-4">
+                    <span class="tag tag-new">✨ 熱門</span>
+                    <span class="tag tag-safe">🔒 安全</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-4">專業AG視廳，真人娛樂體驗一流。介面操作簡潔流暢，出入金通道穩定快速。</p>
+                <a href="https://www.bm8899.com/ag/YAB5288" rel="dofollow" class="btn-gold w-full text-center">前往 泊樂娛樂城</a>
+            </div>
+            
+            <!-- Casino 3: 威樂 -->
+            <div class="card-glow rounded-2xl p-6 relative">
+                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                    <span class="badge-top">🥉 第三名</span>
+                </div>
+                <div class="text-center mt-4">
+                    <div class="w-20 h-20 mx-auto rounded-2xl bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center text-3xl mb-4">🎲</div>
+                    <h3 class="text-2xl font-bold text-white mb-1">威樂娛樂城</h3>
+                    <div class="flex justify-center space-x-1 mb-3">
+                        <span class="star-filled">★★★★★</span>
+                    </div>
+                    <div class="text-yellow-400 font-bold text-lg mb-4">9.4 / 10</div>
+                </div>
+                <div class="space-y-3 mb-6">
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">安全性</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 95%"></div></div>
+                            <span class="text-yellow-400">95</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">遊戲豐富度</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 94%"></div></div>
+                            <span class="text-yellow-400">94</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">出金速度</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 93%"></div></div>
+                            <span class="text-yellow-400">93</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-400">優惠活動</span>
+                        <div class="flex items-center">
+                            <div class="rating-bar w-24 mr-2"><div class="rating-fill" style="width: 96%"></div></div>
+                            <span class="text-yellow-400">96</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-1 mb-4">
+                    <span class="tag tag-popular">⭐ 推薦</span>
+                    <span class="tag tag-safe">🔒 安全</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-4">信譽良好，返水比例高達1.2%，體育博彩與電子遊戲選擇豐富，適合長期玩家。</p>
+                <a href="https://dragon598.welove777.com/" rel="dofollow" class="btn-gold w-full text-center">前往 威樂娛樂城</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features / Review Criteria -->
+<section id="features" class="py-20" style="background: rgba(20,25,45,0.5);">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title gold-gradient">我們的評測標準</h2>
+            <p class="text-gray-400 mt-6 max-w-2xl mx-auto">每間出現在我們<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>名單的賭場，都必須通過以下嚴格的評測項目</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            <div class="card-glow rounded-xl p-6 text-center">
+                <div class="feature-icon mx-auto mb-4">🔒</div>
+                <h3 class="text-lg font-bold text-white mb-2">安全保障</h3>
+                <p class="text-gray-400 text-sm">SSL加密、公平遊戲認證、合法營運執照，全方位保障玩家權益</p>
+            </div>
+            <div class="card-glow rounded-xl p-6 text-center">
+                <div class="feature-icon mx-auto mb-4">🎮</div>
+                <h3 class="text-lg font-bold text-white mb-2">遊戲多樣性</h3>
+                <p class="text-gray-400 text-sm">百家樂、老虎機、輪盤、體育博彩等超過3000款遊戲選擇</p>
+            </div>
+            <div class="card-glow rounded-xl p-6 text-center">
+                <div class="feature-icon mx-auto mb-4">💰</div>
+                <h3 class="text-lg font-bold text-white mb-2">出金速度</h3>
+                <p class="text-gray-400 text-sm">平均出金時間小於15分鐘，支援多種出入金管道</p>
+            </div>
+            <div class="card-glow rounded-xl p-6 text-center">
+                <div class="feature-icon mx-auto mb-4">🎁</div>
+                <h3 class="text-lg font-bold text-white mb-2">優惠活動</h3>
+                <p class="text-gray-400 text-sm">首儲彩金、返水比例、週週紅利，豐富獎勵等你來拿</p>
+            </div>
+            <div class="card-glow rounded-xl p-6 text-center">
+                <div class="feature-icon mx-auto mb-4">📱</div>
+                <h3 class="text-lg font-bold text-white mb-2">行動體驗</h3>
+                <p class="text-gray-400 text-sm">專屬APP或行動網頁流暢體驗，隨時隨地享受遊戲樂趣</p>
+            </div>
+            <div class="card-glow rounded-xl p-6 text-center">
+                <div class="feature-icon mx-auto mb-4">💬</div>
+                <h3 class="text-lg font-bold text-white mb-2">客服品質</h3>
+                <p class="text-gray-400 text-sm">24小時中文客服，多管道即時回覆，問題快速解決</p>
+            </div>
+            <div class="card-glow rounded-xl p-6 text-center">
+                <div class="feature-icon mx-auto mb-4">⭐</div>
+                <h3 class="text-lg font-bold text-white mb-2">用戶口碑</h3>
+                <p class="text-gray-400 text-sm">真實玩家評價分析，社群討論熱度與滿意度調查</p>
+            </div>
+            <div class="card-glow rounded-xl p-6 text-center">
+                <div class="feature-icon mx-auto mb-4">🔄</div>
+                <h3 class="text-lg font-bold text-white mb-2">持續更新</h3>
+                <p class="text-gray-400 text-sm">每月定期重新評測，確保<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>名單保持最新</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Full Ranking Table -->
+<section id="ranking" class="py-20">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title gold-gradient">2026 娛樂城排行榜</h2>
+            <p class="text-gray-400 mt-6 max-w-2xl mx-auto">完整排名一覽，點擊即可前往您感興趣的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>詳情</p>
+        </div>
+        
+        <div class="max-w-5xl mx-auto rounded-2xl overflow-hidden" style="border: 1px solid rgba(255,215,0,0.15);">
+            <div class="grid grid-cols-12 gap-2 px-6 py-4 font-bold text-sm text-yellow-400" style="background: rgba(255,215,0,0.05);">
+                <div class="col-span-1">排名</div>
+                <div class="col-span-2">娛樂城</div>
+                <div class="col-span-1">評分</div>
+                <div class="col-span-2 hidden md:block">首儲優惠</div>
+                <div class="col-span-2 hidden md:block">出金速度</div>
+                <div class="col-span-2 hidden md:block">遊戲數量</div>
+                <div class="col-span-2">特色</div>
+                <div class="col-span-2 text-center">操作</div>
+            </div>
+            
+            <!-- Row 1 -->
+            <div class="table-row grid grid-cols-12 gap-2 px-6 py-4 items-center">
+                <div class="col-span-1"><div class="casino-rank rank-1">1</div></div>
+                <div class="col-span-2 font-bold text-white">WG娛樂城</div>
+                <div class="col-span-1"><span class="gold-gradient font-bold">9.8</span></div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">首儲100%</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">⚡ 8分鐘</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">3,500+</div>
+                <div class="col-span-2"><span class="tag tag-hot">🔥 熱門</span></div>
+                <div class="col-span-2 text-center"><a href="https://ck5788.wg1888.com/" rel="dofollow" class="btn-gold text-xs py-2 px-4">前往</a></div>
+            </div>
+            
+            <!-- Row 2 -->
+            <div class="table-row grid grid-cols-12 gap-2 px-6 py-4 items-center">
+                <div class="col-span-1"><div class="casino-rank rank-2">2</div></div>
+                <div class="col-span-2 font-bold text-white">泊樂娛樂城</div>
+                <div class="col-span-1"><span class="gold-gradient font-bold">9.6</span></div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">首儲88%</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">⚡ 10分鐘</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">3,000+</div>
+                <div class="col-span-2"><span class="tag tag-new">✨ AG廳</span></div>
+                <div class="col-span-2 text-center"><a href="https://www.bm8899.com/ag/YAB5288" rel="dofollow" class="btn-gold text-xs py-2 px-4">前往</a></div>
+            </div>
+            
+            <!-- Row 3 -->
+            <div class="table-row grid grid-cols-12 gap-2 px-6 py-4 items-center">
+                <div class="col-span-1"><div class="casino-rank rank-3">3</div></div>
+                <div class="col-span-2 font-bold text-white">威樂娛樂城</div>
+                <div class="col-span-1"><span class="gold-gradient font-bold">9.4</span></div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">首儲50%</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">⚡ 12分鐘</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">2,800+</div>
+                <div class="col-span-2"><span class="tag tag-popular">⭐ 返水高</span></div>
+                <div class="col-span-2 text-center"><a href="https://dragon598.welove777.com/" rel="dofollow" class="btn-gold text-xs py-2 px-4">前往</a></div>
+            </div>
+            
+            <!-- Row 4 -->
+            <div class="table-row grid grid-cols-12 gap-2 px-6 py-4 items-center">
+                <div class="col-span-1"><div class="casino-rank rank-default">4</div></div>
+                <div class="col-span-2 font-bold text-white">冠天下娛樂城</div>
+                <div class="col-span-1"><span class="text-yellow-400 font-bold">9.1</span></div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">首儲30%</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">⚡ 15分鐘</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">2,500+</div>
+                <div class="col-span-2"><span class="tag tag-safe">🔒 安全</span></div>
+                <div class="col-span-2 text-center"><a href="https://as8899.one/?link=634hf566v" rel="dofollow" class="btn-gold text-xs py-2 px-4">前往</a></div>
+            </div>
+            
+            <!-- Row 5 -->
+            <div class="table-row grid grid-cols-12 gap-2 px-6 py-4 items-center">
+                <div class="col-span-1"><div class="casino-rank rank-default">5</div></div>
+                <div class="col-span-2 font-bold text-white">財神娛樂城</div>
+                <div class="col-span-1"><span class="text-yellow-400 font-bold">8.9</span></div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">首儲35%</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">⚡ 18分鐘</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">2,200+</div>
+                <div class="col-span-2"><span class="tag tag-popular">⭐ 人氣</span></div>
+                <div class="col-span-2 text-center"><a href="https://3ub13101.kk6666.net/" rel="dofollow" class="btn-gold text-xs py-2 px-4">前往</a></div>
+            </div>
+            
+            <!-- Row 6 -->
+            <div class="table-row grid grid-cols-12 gap-2 px-6 py-4 items-center">
+                <div class="col-span-1"><div class="casino-rank rank-default">6</div></div>
+                <div class="col-span-2 font-bold text-white">hoin娛樂城</div>
+                <div class="col-span-1"><span class="text-yellow-400 font-bold">8.7</span></div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">首儲25%</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">⚡ 20分鐘</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">1,900+</div>
+                <div class="col-span-2"><span class="tag tag-safe">🔒 穩定</span></div>
+                <div class="col-span-2 text-center"><a href="https://hoin8.com/?aff=wt70de" rel="dofollow" class="btn-gold text-xs py-2 px-4">前往</a></div>
+            </div>
+            
+            <!-- Row 7 -->
+            <div class="table-row grid grid-cols-12 gap-2 px-6 py-4 items-center">
+                <div class="col-span-1"><div class="casino-rank rank-default">7</div></div>
+                <div class="col-span-2 font-bold text-white">hoya娛樂城</div>
+                <div class="col-span-1"><span class="text-yellow-400 font-bold">8.5</span></div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">首儲20%</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">⚡ 22分鐘</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">1,600+</div>
+                <div class="col-span-2"><span class="tag tag-new">✨ 新站</span></div>
+                <div class="col-span-2 text-center"><a href="http://1788hy.com/affr.aspx?a=hy0518" rel="dofollow" class="btn-gold text-xs py-2 px-4">前往</a></div>
+            </div>
+            
+            <!-- Row 8 -->
+            <div class="table-row grid grid-cols-12 gap-2 px-6 py-4 items-center">
+                <div class="col-span-1"><div class="casino-rank rank-default">8</div></div>
+                <div class="col-span-2 font-bold text-white">cash88娛樂城</div>
+                <div class="col-span-1"><span class="text-yellow-400 font-bold">8.3</span></div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">首儲15%</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">⚡ 25分鐘</div>
+                <div class="col-span-2 hidden md:block text-gray-300 text-sm">1,400+</div>
+                <div class="col-span-2"><span class="tag tag-popular">⭐ 推薦</span></div>
+                <div class="col-span-2 text-center"><a href="https://cash1788.com/?aff=cm51pa" rel="dofollow" class="btn-gold text-xs py-2 px-4">前往</a></div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-10">
+            <a href="https://dupig03.com/casino/" rel="dofollow" class="btn-gold text-lg">🏆 查看2026娛樂城推薦</a>
+        </div>
+    </div>
+</section>
+
+<!-- Comparison Section -->
+<section id="comparison" class="py-20" style="background: rgba(20,25,45,0.5);">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title gold-gradient">娛樂城對比分析</h2>
+            <p class="text-gray-400 mt-6 max-w-2xl mx-auto">透過詳細比較，幫助您選擇最適合的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>平台</p>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- WG -->
+            <div class="comparison-highlight">
+                <div class="text-center mb-4">
+                    <div class="text-4xl mb-2">🥇</div>
+                    <h3 class="text-xl font-bold text-white">WG娛樂城</h3>
+                    <div class="gold-gradient text-2xl font-bold mt-1">總分 9.8</div>
+                </div>
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">首儲彩金</span>
+                        <span class="text-white font-semibold">100%</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">最低存款</span>
+                        <span class="text-white font-semibold">$100</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">出金時間</span>
+                        <span class="text-white font-semibold">8分鐘</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">返水比例</span>
+                        <span class="text-white font-semibold">1.0%</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">真人娛樂</span>
+                        <span class="text-green-400 font-semibold">✅ 支援</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">體育博彩</span>
+                        <span class="text-green-400 font-semibold">✅ 支援</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">APP下載</span>
+                        <span class="text-green-400 font-semibold">✅ 支援</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2">
+                        <span class="text-gray-400">加密貨幣</span>
+                        <span class="text-green-400 font-semibold">✅ 支援</span>
+                    </div>
+                </div>
+                <a href="https://ck5788.wg1888.com/" rel="dofollow" class="btn-gold w-full text-center mt-6 block">選擇 WG</a>
+            </div>
+            
+            <!-- 泊樂 -->
+            <div class="card-glow rounded-xl p-6">
+                <div class="text-center mb-4">
+                    <div class="text-4xl mb-2">🥈</div>
+                    <h3 class="text-xl font-bold text-white">泊樂娛樂城</h3>
+                    <div class="text-yellow-400 text-2xl font-bold mt-1">總分 9.6</div>
+                </div>
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">首儲彩金</span>
+                        <span class="text-white font-semibold">88%</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">最低存款</span>
+                        <span class="text-white font-semibold">$100</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">出金時間</span>
+                        <span class="text-white font-semibold">10分鐘</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">返水比例</span>
+                        <span class="text-white font-semibold">0.8%</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">真人娛樂</span>
+                        <span class="text-green-400 font-semibold">✅ 支援</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">體育博彩</span>
+                        <span class="text-green-400 font-semibold">✅ 支援</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">APP下載</span>
+                        <span class="text-green-400 font-semibold">✅ 支援</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2">
+                        <span class="text-gray-400">加密貨幣</span>
+                        <span class="text-green-400 font-semibold">✅ 支援</span>
+                    </div>
+                </div>
+                <a href="https://www.bm8899.com/ag/YAB5288" rel="dofollow" class="btn-gold w-full text-center mt-6 block">選擇 泊樂</a>
+            </div>
+            
+            <!-- 威樂 -->
+            <div class="card-glow rounded-xl p-6">
+                <div class="text-center mb-4">
+                    <div class="text-4xl mb-2">🥉</div>
+                    <h3 class="text-xl font-bold text-white">威樂娛樂城</h3>
+                    <div class="text-yellow-400 text-2xl font-bold mt-1">總分 9.4</div>
+                </div>
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">首儲彩金</span>
+                        <span class="text-white font-semibold">50%</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">最低存款</span>
+                        <span class="text-white font-semibold">$100</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">出金時間</span>
+                        <span class="text-white font-semibold">12分鐘</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">返水比例</span>
+                        <span class="text-white font-semibold">1.2%</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">真人娛樂</span>
+                        <span class="text-green-400 font-semibold">✅ 支援</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">體育博彩</span>
+                        <span class="text-green-400 font-semibold">✅ 支援</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2 border-b border-white/10">
+                        <span class="text-gray-400">APP下載</span>
+                        <span class="text-green-400 font-semibold">✅ 支援</span>
+                    </div>
+                    <div class="flex justify-between items-center py-2">
+                        <span class="text-gray-400">加密貨幣</span>
+                        <span class="text-yellow-400 font-semibold">⚠️ 部分</span>
+                    </div>
+                </div>
+                <a href="https://dragon598.welove777.com/" rel="dofollow" class="btn-gold w-full text-center mt-6 block">選擇 威樂</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Game Categories -->
+<section class="py-20">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title gold-gradient">熱門遊戲類型</h2>
+            <p class="text-gray-400 mt-6 max-w-2xl mx-auto">在我們的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>平台中，您可以找到以下最受歡迎的遊戲類型</p>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 max-w-5xl mx-auto">
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">🃏</div>
+                <div class="text-white font-semibold text-sm">百家樂</div>
+            </div>
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">🎰</div>
+                <div class="text-white font-semibold text-sm">老虎機</div>
+            </div>
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">🎡</div>
+                <div class="text-white font-semibold text-sm">輪盤</div>
+            </div>
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">⚽</div>
+                <div class="text-white font-semibold text-sm">體育博彩</div>
+            </div>
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">🎲</div>
+                <div class="text-white font-semibold text-sm">骰寶</div>
+            </div>
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">🐉</div>
+                <div class="text-white font-semibold text-sm">龍虎</div>
+            </div>
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">🂡</div>
+                <div class="text-white font-semibold text-sm">二十一點</div>
+            </div>
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">🎯</div>
+                <div class="text-white font-semibold text-sm">捕魚機</div>
+            </div>
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">🏇</div>
+                <div class="text-white font-semibold text-sm">賽馬</div>
+            </div>
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">🎮</div>
+                <div class="text-white font-semibold text-sm">電子遊戲</div>
+            </div>
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">♟️</div>
+                <div class="text-white font-semibold text-sm">撲克</div>
+            </div>
+            <div class="card-glow rounded-xl p-4 text-center cursor-pointer hover:scale-105 transition">
+                <div class="text-3xl mb-2">🎪</div>
+                <div class="text-white font-semibold text-sm">彩票</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Review Article Section -->
+<section class="py-20" style="background: rgba(20,25,45,0.5);">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+            <article class="prose prose-lg max-w-none">
+                <h2 class="text-3xl font-bold gold-gradient mb-6 section-title">2026年最新娛樂城推薦完整指南</h2>
+                
+                <div class="text-gray-300 space-y-6 leading-relaxed">
+                    <p>在台灣尋找信賴的線上娛樂城是許多玩家的首要任務。隨著線上賭場數量的快速增長，如何辨別優質平台變得尤為重要。我們的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>團隊每月都會對各大平台進行深入評測，確保為台灣玩家提供最可靠的選擇。</p>
+                    
+                    <h3 class="text-2xl font-bold text-white mt-8 mb-4">為什麼需要娛樂城推薦？</h3>
+                    <p>市面上的線上娛樂城多達數百家，但品質參差不齊。有些平台存在出金緩慢、遊戲不公平、客服態度差等問題。透過專業的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>評測，玩家可以避免踩雷，直接選擇經過驗證的優質平台。我們的評測涵蓋安全性、遊戲品質、出金速度、優惠活動等多個維度，全方位評估每個娛樂城。</p>
+                    
+                    <h3 class="text-2xl font-bold text-white mt-8 mb-4">如何選擇適合自己的娛樂城？</h3>
+                    <p>選擇娛樂城時，建議從以下幾個方面考慮：</p>
+                    <ul class="list-disc pl-6 space-y-2 text-gray-300">
+                        <li><strong class="text-white">安全性</strong>：確認平台是否擁有合法營運執照，是否使用SSL加密技術保護玩家資料</li>
+                        <li><strong class="text-white">遊戲選擇</strong>：根據個人偏好選擇遊戲種類豐富的平台，如百家樂、老虎機、體育博彩等</li>
+                        <li><strong class="text-white">出金速度</strong>：優質的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>平台平均出金時間應在15分鐘以內</li>
+                        <li><strong class="text-white">優惠活動</strong>：比較首儲彩金、返水比例、週週紅利等優惠方案的實質價值</li>
+                        <li><strong class="text-white">客服品質</strong>：24小時中文客服是基本配備，回應速度與解決問題的能力至關重要</li>
+                    </ul>
+                    
+                    <h3 class="text-2xl font-bold text-white mt-8 mb-4">2026年娛樂城趨勢</h3>
+                    <p>今年線上娛樂城的發展呈現幾個明顯趨勢：首先，加密貨幣支付變得更加普及，越來越多平台支援USDT、BTC等加密貨幣出入金。其次，真人娛樂室的畫質和互動性大幅提升，帶來更逼真的遊戲體驗。第三，行動遊戲體驗持續優化，專屬APP的流暢度已經接近桌面版。我們的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>也會緊跟這些趨勢，為玩家推薦最符合時代潮流的平台。</p>
+                    
+                    <h3 class="text-2xl font-bold text-white mt-8 mb-4">安全遊玩提醒</h3>
+                    <p>雖然線上娛樂城提供了豐富的娛樂選擇，但玩家仍需注意理性消費。建議設定每日投注上限，不追趕損失，將遊戲視為娛樂而非賺錢工具。選擇我們<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>名單中的平台，可以獲得更完善的玩家保護機制，包括自我限制功能、冷靜期設定等。</p>
+                </div>
+                
+                <div class="mt-10 p-6 rounded-xl" style="background: rgba(255,215,0,0.05); border: 1px solid rgba(255,215,0,0.2);">
+                    <p class="text-yellow-400 font-semibold text-center text-lg">🏆 準備開始您的娛樂城之旅了嗎？立即查看我們精心挑選的<a href="https://dupig03.com/casino/" rel="dofollow" class="underline">娛樂城推薦</a>名單！</p>
+                    <div class="text-center mt-4">
+                        <a href="https://dupig03.com/casino/" rel="dofollow" class="btn-gold">立即前往娛樂城推薦</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq" class="py-20">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 section-title gold-gradient">常見問題 FAQ</h2>
+            <p class="text-gray-400 mt-6 max-w-2xl mx-auto">關於我們的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>，玩家最常問的問題</p>
+        </div>
+        
+        <div class="max-w-3xl mx-auto space-y-4">
+            <div class="faq-item cursor-pointer" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center p-6">
+                    <h3 class="text-white font-semibold pr-4">你們的娛樂城推薦評測標準是什麼？</h3>
+                    <span class="faq-toggle text-yellow-400 text-2xl flex-shrink-0">▼</span>
+                </div>
+                <div class="faq-answer px-6 text-gray-400">
+                    <p>我們的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>評測涵蓋十大維度：安全性認證、遊戲公平性、出金速度、首儲優惠、返水比例、遊戲多樣性、行動體驗、客服品質、用戶評價以及平台穩定性。每個項目都經過實際測試和數據分析，確保評測結果客觀公正。</p>
+                </div>
+            </div>
+            
+            <div class="faq-item cursor-pointer" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center p-6">
+                    <h3 class="text-white font-semibold pr-4">娛樂城推薦名單多久更新一次？</h3>
+                    <span class="faq-toggle text-yellow-400 text-2xl flex-shrink-0">▼</span>
+                </div>
+                <div class="faq-answer px-6 text-gray-400">
+                    <p>我們的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>名單每月定期更新一次，遇到重大平台變更時會即時調整。這確保您看到的都是最新的評測結果和排名資訊。</p>
+                </div>
+            </div>
+            
+            <div class="faq-item cursor-pointer" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center p-6">
+                    <h3 class="text-white font-semibold pr-4">在娛樂城註冊帳號安全嗎？</h3>
+                    <span class="faq-toggle text-yellow-400 text-2xl flex-shrink-0">▼</span>
+                </div>
+                <div class="faq-answer px-6 text-gray-400">
+                    <p>我們<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>名單中的所有平台都通過嚴格的安全審查，包括SSL加密傳輸、個資保護措施、公平遊戲認證等。我們只會推薦安全信譽良好的平台給玩家。</p>
+                </div>
+            </div>
+            
+            <div class="faq-item cursor-pointer" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center p-6">
+                    <h3 class="text-white font-semibold pr-4">出金需要多長時間？</h3>
+                    <span class="faq-toggle text-yellow-400 text-2xl flex-shrink-0">▼</span>
+                </div>
+                <div class="faq-answer px-6 text-gray-400">
+                    <p>根據我們的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>評測數據，排名前五的娛樂城平均出金時間在8-15分鐘之間。使用加密貨幣出金通常更快，銀行轉帳可能需要1-2個工作天。</p>
+                </div>
+            </div>
+            
+            <div class="faq-item cursor-pointer" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center p-6">
+                    <h3 class="text-white font-semibold pr-4">首儲優惠的條件是什麼？</h3>
+                    <span class="faq-toggle text-yellow-400 text-2xl flex-shrink-0">▼</span>
+                </div>
+                <div class="faq-answer px-6 text-gray-400">
+                    <p>首儲優惠通常有流水量要求，例如首儲100%彩金可能需要完成投注額的1-2倍流水量才能提款。每個平台的條件不同，建議在領取前詳細閱讀條款。我們的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>會清楚標示每個平台的優惠條件。</p>
+                </div>
+            </div>
+            
+            <div class="faq-item cursor-pointer" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center p-6">
+                    <h3 class="text-white font-semibold pr-4">可以用手機玩娛樂城遊戲嗎？</h3>
+                    <span class="faq-toggle text-yellow-400 text-2xl flex-shrink-0">▼</span>
+                </div>
+                <div class="faq-answer px-6 text-gray-400">
+                    <p>當然可以！我們<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>的所有平台都支援手機遊玩，包括專屬APP下載和行動網頁版。您可以隨時隨地享受百家樂、老虎機等遊戲的樂趣。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-20" style="background: linear-gradient(135deg, #1a0a2e, #0d1025, #1a1f35);">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl md:text-5xl font-bold mb-6 gold-gradient">立即探索最佳娛樂城推薦</h2>
+        <p class="text-gray-400 text-lg max-w-2xl mx-auto mb-10">加入數百萬玩家的選擇，從我們精心評測的<a href="https://dupig03.com/casino/" rel="dofollow" class="text-yellow-400">娛樂城推薦</a>名單中，找到最適合您的線上賭場平台。</p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a href="https://dupig03.com/casino/" rel="dofollow" class="btn-gold text-lg">🎰 查看2026娛樂城推薦</a>
+            <a href="#reviews" class="px-8 py-3 rounded-lg border border-yellow-600 text-yellow-400 font-semibold hover:bg-yellow-600/10 transition">📖 閱讀完整評測</a>
+        </div>
+        <p class="text-gray-500 text-sm mt-8">🔒 所有推薦平台均通過安全認證 | 📊 每月更新評測 | 🏆 超過50家平台嚴格篩選</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-12" style="background: #060810; border-top: 1px solid rgba(255,215,0,0.1);">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+            <div>
+                <h4 class="text-lg font-bold gold-gradient mb-4">🎰 WG娛樂城推薦</h4>
+                <p class="text-gray-500 text-sm leading-relaxed">最專業的台灣線上賭場評測平台，為您精選最值得信賴的<a href="https://dupig03.com/casino/" rel="dofollow">娛樂城推薦</a>名單。</p>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4">快速連結</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#reviews" class="text-gray-500 hover:text-yellow-400 transition">賭場評測</a></li>
+                    <li><a href="#ranking" class="text-gray-500 hover:text-yellow-400 transition">排行榜</a></li>
+                    <li><a href="#features" class="text-gray-500 hover:text-yellow-400 transition">評測標準</a></li>
+                    <li><a href="#faq" class="text-gray-500 hover:text-yellow-400 transition">常見問題</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4">遊戲類型</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="https://dupig03.com/casino/" rel="dofollow" class="text-gray-500 hover:text-yellow-400 transition">百家樂</a></li>
+                    <li><a href="https://dupig03.com/casino/" rel="dofollow" class="text-gray-500 hover:text-yellow-400 transition">老虎機</a></li>
+                    <li><a href="https://dupig03.com/casino/" rel="dofollow" class="text-gray-500 hover:text-yellow-400 transition">體育博彩</a></li>
+                    <li><a href="https://dupig03.com/casino/" rel="dofollow" class="text-gray-500 hover:text-yellow-400 transition">真人娛樂</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4">關於我們</h4>
+                <p class="text-gray-500 text-sm leading-relaxed mb-4">我們是專業的娛樂城評測團隊，致力於為台灣玩家提供客觀、公正的線上賭場評測服務。</p>
+                <a href="https://dupig03.com/casino/" rel="dofollow" class="text-yellow-400 text-sm hover:underline">前往 娛樂城推薦 →</a>
+            </div>
+        </div>
+        
+        <div class="border-t border-white/10 pt-8">
+            <div class="flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
+                <p>© 2026 <a href="https://dupig03.com/casino/" rel="dofollow" class="text-yellow-600">娛樂城推薦</a> - 台灣線上賭場評測. All rights reserved.</p>
+                <p class="mt-2 md:mt-0">⚠️ 請理性投注，未滿18歲禁止參與。</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById('mobileMenu');
+        menu.classList.toggle('active');
+    }
+
+    function toggleFaq(element) {
+        const isActive = element.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(item => item.classList.remove('active'));
+        if (!isActive) {
+            element.classList.add('active');
+        }
+    }
+
+    function animateCounter(elementId, target, suffix = '', duration = 2000) {
+        const element = document.getElementById(elementId);
+        if (!element) return;
+        const start = 0;
+        const startTime = performance.now();
+        
+        function update(currentTime) {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const easeOut = 1 - Math.pow(1 - progress, 3);
+            const current = Math.floor(start + (target - start) * easeOut);
+            
+            if (elementId === 'stat4') {
+                element.textContent = (current / 10).toFixed(1) + suffix;
+            } else {
+                element.textContent = current.toLocaleString() + suffix;
+            }
+            
+            if (progress < 1) {
+                requestAnimationFrame(update);
+            }
+        }
+        
+        requestAnimationFrame(update);
+    }
+
+    const observerOptions = { threshold: 0.2 };
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                if (entry.target.id === 'stat1') {
+                    animateCounter('stat1', 50, '+');
+                    animateCounter('stat2', 3000, '+');
+                    animateCounter('stat3', 100000, '+');
+                    animateCounter('stat4', 96, '');
+                }
+                
+                entry.target.querySelectorAll('.rating-fill').forEach(bar => {
+                    const width = bar.style.width;
+                    bar.style.width = '0%';
+                    setTimeout(() => {
+                        bar.style.width = width;
+                    }, 300);
+                });
+            }
+        });
+    }, observerOptions);
+
+    const statsSection = document.getElementById('stat1');
+    if (statsSection) {
+        observer.observe(statsSection.closest('.grid'));
+    }
+
+    function createParticles() {
+        const container = document.getElementById('particles');
+        if (!container) return;
+        
+        for (let i = 0; i < 30; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDuration = (Math.random() * 10 + 8) + 's';
+            particle.style.animationDelay = Math.random() * 10 + 's';
+            particle.style.width = (Math.random() * 4 + 2) + 'px';
+            particle.style.height = particle.style.width;
+            particle.style.opacity = Math.random() * 0.5 + 0.1;
+            container.appendChild(particle);
+        }
+    }
+
+    createParticles();
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                e.preventDefault();
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                document.getElementById('mobileMenu').classList.remove('active');
+            }
+        });
+    });
+
+    window.addEventListener('scroll', () => {
+        const nav = document.querySelector('nav');
+        if (window.scrollY > 50) {
+            nav.style.boxShadow = '0 4px 20px rgba(0,0,0,0.3)';
+        } else {
+            nav.style.boxShadow = 'none';
+        }
+    });
+</script>
+
+</body>
+</html>
+
